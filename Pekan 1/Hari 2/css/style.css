@@ -4,7 +4,22 @@ nav{
     justify-content: space-around;
     
 }
+li{
+    display: inline;
+    margin-right: 20px;
+}
 body{
     margin: 0px;
 }
-
+main{
+    background-color: antiquewhite;
+    margin-inline: 12px;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+article{
+    margin-top: 10px;
+    border-bottom: 2px solid gray;
+}
