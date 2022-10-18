@@ -23,3 +23,10 @@ article{
     margin-top: 10px;
     border-bottom: 2px solid gray;
 }
+footer{
+    background-color: gray;
+    padding: 10px;
+}
+h5{
+    text-align: center;
+}
