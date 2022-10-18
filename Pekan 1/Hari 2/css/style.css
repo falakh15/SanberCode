@@ -1,0 +1,10 @@
+nav{
+    display: flex;
+    background-color: gray;
+    justify-content: space-around;
+    
+}
+body{
+    margin: 0px;
+}
+
