@@ -1,8 +1,11 @@
 nav{
     display: flex;
     background-color: gray;
-    justify-content: space-around;
-    
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 li{
     display: inline;
@@ -13,8 +16,8 @@ body{
 }
 main{
     background-color: antiquewhite;
-    margin-inline: 12px;
-    padding: 20px;
+    margin-inline: 10px;
+    padding: 60px;
 }
 h1{
     text-align: center;
@@ -24,8 +27,9 @@ article{
     border-bottom: 2px solid gray;
 }
 footer{
+    margin: 0 px;
     background-color: gray;
-    padding: 10px;
+    padding: 5px;
 }
 h5{
     text-align: center;
