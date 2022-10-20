@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open Tugas.html",
-            "file": "c:\\xampp\\htdocs\\SanberCode\\Pekan 1\\Hari 4\\looping.html"
+            "file": "c:\\xampp\\htdocs\\SanberCode\\Pekan 1\\Hari 4\\array.html"
         }
     ]
 }

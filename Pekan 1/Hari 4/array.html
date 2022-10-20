@@ -63,10 +63,15 @@ adalah sebuah
             ]
         
         // Code kamu di sini, lakukan looping terhadap input di atas
-
-
-        
-        var jawaban1 // =  Isikan outputnya di sini
+        function dataHandling(data){
+            var temp = "";
+            for(var i = 0; i < data.length; i++){
+                temp += "Nomor ID : " + data[i][0] + "<br> Nama Lengkap : " + data[i][1] + "<br> TTL : " + data[i][2] + ", "+ data[i][3] + "<br> Hobi : " + data[i][4] +"<br><br>";
+            }
+            return temp;
+        }
+           
+        var jawaban1 = dataHandling(input);
 
         document.getElementById("jawaban1").innerHTML = jawaban1  
 
